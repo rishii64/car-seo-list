@@ -1,3 +1,4 @@
+import '../../app/globals.css'
 import Head from 'next/head';
 import cars from '../../data/cars';
 import { parseSlug, generateMetadata } from '../../utils/generateMetadata';
