@@ -44,7 +44,7 @@ export default function CarPage({ car, meta }) {
                     <img
                         src={car.image}
                         alt={`${car.brand} ${car.model}`}
-                        className="w-full md:w-1/2 h-auto rounded-xl shadow-md object-cover"
+                        className="w-full md:w-md h-auto rounded-xl shadow-md object-cover"
                     />
 
                     <div className="flex-1 space-y-6">
