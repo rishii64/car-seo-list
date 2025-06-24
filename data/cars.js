@@ -42,3 +42,13 @@ const cars = [
 ];
 
 export default cars;
+
+// get-car function
+export function getCars(){
+    return cars;
+}
+
+// add-car function
+export function addCars(car){
+    cars.push(car);
+}
