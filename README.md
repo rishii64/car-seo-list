@@ -14,12 +14,15 @@ npm run dev
 
 
 ## Backend-Task Folder Structure
-Implemented a basic backend API using **Next.js API routes**, designed for a car listing system with login and JWT authentication.
+
+This project implements a basic backend API using **Next.js API routes**, designed for a car listing system with login and JWT authentication.
+
 ---
 
 ## 📁 Folder Structure
+
 ```
-root/
+project-root/
 ├── pages/
 │   └── api/
 │       ├── cars.js           # Handles GET and POST car APIs
@@ -38,6 +41,7 @@ root/
 ```
 
 ---
+
 ## 🔧 Endpoints
 
 ### `POST /api/login`
@@ -121,6 +125,3 @@ JWT_SECRET=your_super_secret_key
 - Add persistent authentication with session or refresh tokens
 
 ---
-
-## 📄 License
-MIT
